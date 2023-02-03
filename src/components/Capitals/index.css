@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  padding: 20px;
+  width: 100vw;
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.capitals-card-container {
+  background-color: #f8fafc;
+  border-radius: 10px;
+  min-height: 30vh;
+  min-width: 30vw;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.question-container {
+  display: flex;
+}
+
+.country-text {
+  height: 40px;
+  border-radius: 5px;
+  padding-right: 35px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.option {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #000000;
+}
+.text {
+  color: #323f4b;
+  margin-left: 5px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.capital {
+  color: #1e293b;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 22px;
+  padding-right: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .capitals-card-container {
+    padding: 10px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .country-text {
+    padding-right: 20px;
+    font-size: 12px;
+  }
+  .option {
+    font-size: 12px;
+  }
+}
